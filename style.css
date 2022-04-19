@@ -1,0 +1,27 @@
+body {
+    background-color: #2ebde8;
+    text-align: center;
+}
+#subtitles {
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    padding: 0;
+}
+#video {
+    border: 10px solid white;
+}
+.controls {
+    font-size: 25px;
+    font-weight: bold;
+}
+#fileDropper {
+    background-color: #2ebde8;
+}
+button {
+    background-color: white;
+    border: 5px solid white;
+}
+.controls:hover {
+    background-color: #d4d3d2;
+}

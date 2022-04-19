@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subtitle Reader</title>
+    <link rel="shortcut icon" type="image/png" href="resources/favicon.png"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input class="controls" id="fileDropper" type="file" onchange="readFile(this)" accept=".srt">
+
+    <button class="controls" id="resumeButton" onclick="resume()">Play</button>
+    <button class="controls" id="pauseButton" onclick="pause()">Pause</button>
+
+    <br>
+    <br>
+
+    <video id="video" poster="https://assets1.ignimgs.com/2020/11/06/naruto---blogroll-1604641899147_160w.jpg?width=1280" width="60%">
+        <source src="media/Naruto.mp4"
+            type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <br>
+
+    <p id="subtitles">Add .srt file for subtitles.</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
